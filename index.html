@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+
 <html>
+  
   <head>
+
       <img src = "WebBanner2023.png" alt="Banner" width="1200" height="300">
       <h1><b> ENG0018 Computer Laboratory 2023/24 </b></h1> 
       <h2> Student URN: 123456 </h2> 
@@ -19,167 +22,186 @@
           text-align: left;
           padding: 8px;
         }
+  
         tr:nth-child(even){
           background-color: #dddddd;
-        } 
+        }
+        
       </style>
       <style> <! paragraph style>
         p.ex1{
           margin-left: 250px;
         }
       </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .mySlides {display:none;}
+  </style>
+
     <style>
-      <.mySlides {display:none;}>
+      #slide-container{
+        text-align: center;
+        position: relative;
+      }
+      .button-container{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -100px:
+      }
+      .button{
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 5px;
+      }
+      .slide-number-container{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -50px;
+      }
+      
     </style>
   </head>
+  
 
-  <body style="background-color:#FFFFFF;margin-left:50px;">
-    <p class="ex1">
-    <table>
-      <tr>
-        <th><h3>Table of contents</h3></th>
+
+
+<body style="background-color:#FFFFFF;margin-left:50px;">
+  <p class="ex1">
+  <table>
+    <tr>
+      <th><h3>Table of contents</h3></th>
+    </tr>
+    <tr>
+      <td><a href="#Abstract">Abstract</td>
+    </tr>
+    <tr>
+      <td><a href="#Introduction">Introduction</td>
+    </tr>
+    <tr>
+      <td><a href="#Analysis and discussion">Analysis and discussion</td>
+    </tr>
+     <tr>
+      <td><a href="#References">References</td>
+    </tr>
+  </table>
+  </p>
+  <hr>
+  <h3 id="Abstract">Abstract</h3>
+  <pre>
+    This paper presents a novel adaptive active learning strategy. The most accurate classification model from a heterogeneous classifier pool is selected at each learning epoch. Our goal is to achieve greater incremental improvement in accuracy, compared to using a single type of classification model throughout the process. The strategy is evaluated on benchmark data sets. We further consider an application to texture classification problems in sonar mosaic imagery and compare it with non-adaptive active learning and traditional machine learning approaches. Our results show that…We conclude that 
+  </pre>
+  <h3 id="Introduction">Introduction</h3>
+  <pre>
+    Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept is learnt by an intelligent machine through the interaction of an oracle with the machine system, over a sequence of learning epochs. A distinctive component in an active system is the querying strategy, used to sample candidate training instances from a pool and evaluate them for informativeness, i.e., their potential to improve the classification model. Various strategies have been proposed including; Query by Committee (Seung et al., 1992), Monte Carlo estimation (Roy and McCallum, 2001), uncertainty sampling (Lewis and Gale, 1994) and version space reduction (margin sampling) (Tong and Koller, 2001). Irrespective of how the most informative pattern instances are chosen at each epoch they are presented for labeling, to a machine (database) or human oracle that has knowledge of the class labels. After adding the newly labeled instances to the current training set, a revised model is subsequently induced. A goal of this process is to achieve an efficient, incremental advancement of learning at each epoch. The process is continued until some stopping criterion has been met, such as reaching a stage where information from the selected instances is contrary to the model, causing the classifier confidence to drop, as in Vlachos (2008).
+  </pre>
+
+  <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
+  <p> The quadratic formula is given by:</p>
+  <!--MathML representation of quadratic formula-->
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+<msup><mi>x</mi><mn>2</mn></msup>
+<mo>+</mo><mi>4</mi><mo>&InvisibleTimes;</mo><mi>x</mi>
+<mo>+</mo><mi>4</mi>
+<mo>=</mo>
+<mi>0</mi>
+
+<p>
+  Table 1: Data on cost and lifespan of bridge repairs
+  <table>
+    <tr>
+      <th>£ Cost of repairs </th>
+      <th> Lifespan of repairs (years) </th>
       </tr>
       <tr>
-        <td><a href="#Abstract">Abstract</td>
+        <td> 0.7 m</td>
+        <td> 2</td>
       </tr>
-      <tr>
-        <td><a href="#Introduction">Introduction</td>
-      </tr>
-      <tr>
-        <td><a href="#Analysis and discussion">Analysis and discussion</td>
-      </tr>
-       <tr>
-        <td><a href="#References">References</td>
-      </tr>
-    </table>
-    </p>
-    <hr>
+    <tr>
+      <td>3.3 m</td>
+      <td> 4 </td>
+    </tr>
+    <tr>
+      <td> 2.6 m</td>
+      <td> 5 </td>
+    </tr>
+    <tr>
+      <td>17.4 m</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>8.8 m</td>
+      <td>9</td>
+    </tr>
+  </table>
+</p>
+
+<p id="date&time"></p>
+<script>
+//Javascript to display the date and time on my webpage
+const d = new Date();
+document.getElementById("date&time").innerHTML = d;
+</script>
+  
+  <p>
+    Some text here with a link <a href=”https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034”>Toshihiko et al (2023).</a>
+
+  </p>
+
+</body>
+  <h3 id="References">References</h3>
+  <p>
+  <pre>
+    Reference list
+  </pre>
+  </p>
+
+<h2> Conference Presentation </h2>
+  <script>
+    var slideImages = ["Slide1.jpg","Slide2,jpg","Slide3.jpg"];
+    var currentSlide = 0;
+    function showSlide() {
+      document.getElementById('slide').src=slideImages[currentSlide];
+    }
+    function nextSlide() {
+      currentSlide = (currentSlide+1) % slideImages.length;
+      showSlide();
+    }
+    function prevSlide(){
+      currentSlide = (currentSlide-1+slideImages.length) % slideImages.length;
+      showSlide();
+    }
+    function showSlideNumber(slideNumber) {
+      currentSlide = slideNumber-1;
+      showSlide():
+    }
+    showSlide();
+  </script>
+  <div id="slide-container">
+    <img id="slide" src="Slide1.jpg" alt="Slide 1" style="width:100%; max-width:800px;">
+  
+  <div class="button-container">
+    <button class="button" onclick="prevSlide()">Previous</button>
+    <button class="button" onclick="nextSlide()">Next</button>
+  </div>
+
+    <div class="slide-number-container">
+      <button class="button" onclick="showSlideNumber(1)">1</button>
+      <button class="button" onclick="showSlideNumber(2)">2</button>
+      <button class="button" onclick="showSlideNumber(3)">3</button>
+    </div>
     
-    <h3 id="Abstract">Abstract</h3>
-    <p class="ex1">
-      This paper presents a novel adaptive active learning strategy...
-    </p>
   
-    <h3 id="Introduction">Introduction</h3>
-    <p class="ex1">
-      Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept...
-    </p>
-  
-    <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
-    <p>
-      Table 1: Data on cost and lifespan of bridge repairs
-      <table>
-        <tr>
-          <th>£ Cost of repairs </th>
-          <th> Lifespan of repairs (years) </th>
-          </tr>
-          <tr>
-            <td> 0.7 m</td>
-            <td> 2</td>
-          </tr>
-        <tr>
-          <td>3.3 m</td>
-          <td> 4 </td>
-        </tr>
-        <tr>
-          <td> 2.6 m</td>
-          <td> 5 </td>
-        </tr>
-        <tr>
-          <td>17.4 m</td>
-          <td>7</td>
-        </tr>
-        <tr>
-          <td>8.8 m</td>
-          <td>9</td>
-        </tr>
-      </table>
-    </p>
-  
-    <p id="date&time"></p>
-    <script>
-    //Javascript to display the date and time on my webpage
-    const d = new Date();
-    document.getElementById("date&time").innerHTML = d;
-    </script>
-    
-    <p>
-      Some text here with a link <a href=”https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034”>Toshihiko et al (2023).</a>
-    </p>
-  
-  
-    <h3 id="References">References</h3>
-    <p>
-      Reference list
-    </p>
-  
-    <h2> Conference Presentation </h2>
-      <script>
-        var slideImages = ["Slide1.JPG","Slide2.JPG","Slide3.JPG"];
-        var currentSlide = 0;
-        function showSlide() {
-          document.getElementById('slide').src=slideImages[currentSlide];
-        }
-        function nextSlide() {
-          currentSlide = (currentSlide+1)% slideImages.length;
-          showSlide();
-        }
-        function prevSlide(){
-          currentSlide = (currentSlide-1+slideImages.length) % slideImages.length;
-          showSlide();
-        }
-        function showSlideNumber(slideNumber) {
-          currentSlide = slideNumber-1;
-          showSlide():
-        }
-        showSlide();
-      </script>
-      <div id="slide-container">
-        <img id="slide" src="Slide1.JPG" alt="Slide 1" style="width:100%; max-width:800px;">
-      
-      <div class="button-container">
-        <button class="button" onclick="prevSlide()">Previous</button>
-        <button class="button" onclick="nextSlide()">Next</button>
-      </div>
-    
-      <div class="slide-number-container">
-        <button class="button" onclick="showSlideNumber(1)">1</button>
-        <button class="button" onclick="showSlideNumber(2)">2</button>
-        <button class="button" onclick="showSlideNumber(3)">3</button>
-      </div>
-    <!/div>
-  <style> <! slide style>
-        #slide-container{
-          text-align: center;
-          position: relative;
-        }
-        .button-container{
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translateX(-50%);
-          margin-bottom: -100px:
-        }
-        .button{
-          padding: 10px 20px;
-          background-color: #4CAF50;
-          color: white;
-          border: none;
-          border-radius: 5px;
-          font-size: 16px;
-          cursor: pointer;
-          margin: 5px;
-        }
-        .slide-number-container{
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translateX(-50%);
-          margin-bottom: -50px;
-        }
-    </style>
-  </body>  
 </html>
