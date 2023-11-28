@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-
 <html>
-  
   <head>
-
       <img src = "WebBanner2023.png" alt="Banner" width="1200" height="300">
       <h1><b> ENG0018 Computer Laboratory 2023/24 </b></h1> 
       <h2> Student URN: 123456 </h2> 
@@ -22,17 +19,46 @@
           text-align: left;
           padding: 8px;
         }
-  
         tr:nth-child(even){
           background-color: #dddddd;
-        }
-        
+        } 
       </style>
       <style> <! paragraph style>
         p.ex1{
           margin-left: 250px;
         }
       </style>
+     <style> <! slide style>
+      .slide-container{
+        text-align: center;
+        position: relative;
+      }
+      .button-container{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -100px:
+      }
+      .button{
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 5px;
+      }
+      .slide-number-container{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -50px;
+      }
+      
+    </style>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -164,36 +190,6 @@ document.getElementById("date&time").innerHTML = d;
       <button class="button" onclick="showSlideNumber(3)">3</button>
     </div>
   </div>
-        <style>
-      #slide-container{
-        text-align: center;
-        position: relative;
-      }
-      .button-container{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: -100px:
-      }
-      .button{
-        padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-        margin: 5px;
-      }
-      .slide-number-container{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: -50px;
-      }
-      
-    </style>
+
 </body>  
 </html>
