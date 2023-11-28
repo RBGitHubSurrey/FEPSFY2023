@@ -28,168 +28,158 @@
           margin-left: 250px;
         }
       </style>
-     <style> <! slide style>
-      .slide-container{
-        text-align: center;
-        position: relative;
-      }
-      .button-container{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: -100px:
-      }
-      .button{
-        padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-        margin: 5px;
-      }
-      .slide-number-container{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: -50px;
-      }
-      
+      <style> <! slide style>
+        .slide-container{
+          text-align: center;
+          position: relative;
+        }
+        .button-container{
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-bottom: -100px:
+        }
+        .button{
+          padding: 10px 20px;
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          margin: 5px;
+        }
+        .slide-number-container{
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-bottom: -50px;
+        }
     </style>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <style>
-    .mySlides {display:none;}
-  </style>
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!style>
+      <!.mySlides {display:none;}>
+    <!/style>
   </head>
-  
 
-
-
-<body style="background-color:#FFFFFF;margin-left:50px;">
-  <p class="ex1">
-  <table>
-    <tr>
-      <th><h3>Table of contents</h3></th>
-    </tr>
-    <tr>
-      <td><a href="#Abstract">Abstract</td>
-    </tr>
-    <tr>
-      <td><a href="#Introduction">Introduction</td>
-    </tr>
-    <tr>
-      <td><a href="#Analysis and discussion">Analysis and discussion</td>
-    </tr>
-     <tr>
-      <td><a href="#References">References</td>
-    </tr>
-  </table>
-  </p>
-  <hr>
-  
-  <h3 id="Abstract">Abstract</h3>
-  <p class="ex1">
-    This paper presents a novel adaptive active learning strategy...
-  </p>
-
-  <h3 id="Introduction">Introduction</h3>
-  <p class="ex1">
-    Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept...
-  </p>
-
-  <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
-
-<p>
-  Table 1: Data on cost and lifespan of bridge repairs
-  <table>
-    <tr>
-      <th>£ Cost of repairs </th>
-      <th> Lifespan of repairs (years) </th>
+  <body style="background-color:#FFFFFF;margin-left:50px;">
+    <p class="ex1">
+    <table>
+      <tr>
+        <th><h3>Table of contents</h3></th>
       </tr>
       <tr>
-        <td> 0.7 m</td>
-        <td> 2</td>
+        <td><a href="#Abstract">Abstract</td>
       </tr>
-    <tr>
-      <td>3.3 m</td>
-      <td> 4 </td>
-    </tr>
-    <tr>
-      <td> 2.6 m</td>
-      <td> 5 </td>
-    </tr>
-    <tr>
-      <td>17.4 m</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>8.8 m</td>
-      <td>9</td>
-    </tr>
-  </table>
-</p>
-
-<p id="date&time"></p>
-<script>
-//Javascript to display the date and time on my webpage
-const d = new Date();
-document.getElementById("date&time").innerHTML = d;
-</script>
+      <tr>
+        <td><a href="#Introduction">Introduction</td>
+      </tr>
+      <tr>
+        <td><a href="#Analysis and discussion">Analysis and discussion</td>
+      </tr>
+       <tr>
+        <td><a href="#References">References</td>
+      </tr>
+    </table>
+    </p>
+    <hr>
+    
+    <h3 id="Abstract">Abstract</h3>
+    <p class="ex1">
+      This paper presents a novel adaptive active learning strategy...
+    </p>
   
-  <p>
-    Some text here with a link <a href=”https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034”>Toshihiko et al (2023).</a>
-
-  </p>
-
-
-  <h3 id="References">References</h3>
-  <p>
-    Reference list
-  </p>
-
-<h2> Conference Presentation </h2>
-  <script>
-    var slideImages = ["Slide1.JPG","Slide2.JPG","Slide3.JPG"];
-    var currentSlide = 0;
-    function showSlide() {
-      document.getElementById('slide').src=slideImages[currentSlide];
-    }
-    function nextSlide() {
-      currentSlide = (currentSlide+1);
-      showSlide();
-    }
-    function prevSlide(){
-      currentSlide = (currentSlide-1+slideImages.length) % slideImages.length;
-      showSlide();
-    }
-    function showSlideNumber(slideNumber) {
-      currentSlide = slideNumber-1;
-      showSlide():
-    }
-    showSlide();
-  </script>
-  <div id="slide-container">
-    <img id="slide" src="Slide1.JPG" alt="Slide 1" style="width:100%; max-width:800px;">
+    <h3 id="Introduction">Introduction</h3>
+    <p class="ex1">
+      Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept...
+    </p>
   
-  <div class="button-container">
-    <button class="button" onclick="prevSlide()">Previous</button>
-    <button class="button" onclick="nextSlide()">Next</button>
-  </div>
-
-    <div class="slide-number-container">
-      <button class="button" onclick="showSlideNumber(1)">1</button>
-      <button class="button" onclick="showSlideNumber(2)">2</button>
-      <button class="button" onclick="showSlideNumber(3)">3</button>
+    <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
+    <p>
+      Table 1: Data on cost and lifespan of bridge repairs
+      <table>
+        <tr>
+          <th>£ Cost of repairs </th>
+          <th> Lifespan of repairs (years) </th>
+          </tr>
+          <tr>
+            <td> 0.7 m</td>
+            <td> 2</td>
+          </tr>
+        <tr>
+          <td>3.3 m</td>
+          <td> 4 </td>
+        </tr>
+        <tr>
+          <td> 2.6 m</td>
+          <td> 5 </td>
+        </tr>
+        <tr>
+          <td>17.4 m</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8.8 m</td>
+          <td>9</td>
+        </tr>
+      </table>
+    </p>
+  
+    <p id="date&time"></p>
+    <script>
+    //Javascript to display the date and time on my webpage
+    const d = new Date();
+    document.getElementById("date&time").innerHTML = d;
+    </script>
+    
+    <p>
+      Some text here with a link <a href=”https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034”>Toshihiko et al (2023).</a>
+    </p>
+  
+  
+    <h3 id="References">References</h3>
+    <p>
+      Reference list
+    </p>
+  
+    <h2> Conference Presentation </h2>
+      <script>
+        var slideImages = ["Slide1.JPG","Slide2.JPG","Slide3.JPG"];
+        var currentSlide = 0;
+        function showSlide() {
+          document.getElementById('slide').src=slideImages[currentSlide];
+        }
+        function nextSlide() {
+          currentSlide = (currentSlide+1)% slideImages.length;
+          showSlide();
+        }
+        function prevSlide(){
+          currentSlide = (currentSlide-1+slideImages.length) % slideImages.length;
+          showSlide();
+        }
+        function showSlideNumber(slideNumber) {
+          currentSlide = slideNumber-1;
+          showSlide():
+        }
+        showSlide();
+      </script>
+      <div id="slide-container">
+        <img id="slide" src="Slide1.JPG" alt="Slide 1" style="width:100%; max-width:800px;">
+      
+      <div class="button-container">
+        <button class="button" onclick="prevSlide()">Previous</button>
+        <button class="button" onclick="nextSlide()">Next</button>
+      </div>
+    
+      <div class="slide-number-container">
+        <button class="button" onclick="showSlideNumber(1)">1</button>
+        <button class="button" onclick="showSlideNumber(2)">2</button>
+        <button class="button" onclick="showSlideNumber(3)">3</button>
+      </div>
     </div>
-  </div>
-
-</body>  
+  
+  </body>  
 </html>
